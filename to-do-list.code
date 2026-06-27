@@ -1,0 +1,29 @@
+lista = []
+
+while True:
+    opção = input("Digite 1 para adicionar uma tarefa, 2 para listar tarefas, 3 para remover uma tarefa ou 4 para encerrar o programa: ")
+    if opção == "1":
+        print("Digite a tarefa que deseja adicionar (Adicione uma tarefa por vez): ") 
+        task = input()
+        lista.append(task)
+        print(f"Tarefa '{task}' adicionada com sucesso.")
+
+    elif opção == "2":
+         task = input("Digite a tarefa que deseja listar: ")
+         if task in lista:
+             print(f"Tarefa encontrada: {task}")
+         if task not in lista:
+             print("Tarefa não encontrada.")
+
+    elif opção == "3":
+         task = input("Digite a tarefa que deseja remover: ")
+         if task in lista:
+             lista.remove(task)
+             print(f"A Tarefa '{task}' foi removida com sucesso.")
+         else:
+             print("Tarefa não encontrada.")
+    
+    elif opção == "4":
+        print('Encerrando o programa...')
+        break
+
