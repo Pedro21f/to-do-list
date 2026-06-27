@@ -1,6 +1,6 @@
 # to-do-list
 
-PORTUGUÊS
+PORTUGUÊS: 
 Essa é uma lista de afazeres online (gênero popularmente conhecido como to-do-list) que possibilita o usuário a:
 - Criar tarefas
 - Marcar as tarefas já feitas
@@ -8,7 +8,7 @@ Essa é uma lista de afazeres online (gênero popularmente conhecido como to-do-
 Uma lista simples usando Python básico, feita em um curto período de tempo.
 
 
-ENGLISH
+ENGLISH:
 This is a online list of to do (popular make how to-do-list). it's enable the user to:
 - To create tasks
 - Mark tasks as completed
